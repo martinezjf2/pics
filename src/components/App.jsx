@@ -1,9 +1,10 @@
 import React from "react";
+import SearchBar from "./SearchBar"
 
 function App() {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <h1><SearchBar /></h1>
         </div>
     )
 }
