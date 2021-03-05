@@ -1,6 +1,7 @@
 import React from "react";
 
-function ImageList() {
+function ImageList(props) {
+    console.log(props.images);
     return <div>ImageList</div>
 }
 
